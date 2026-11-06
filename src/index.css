@@ -1,0 +1,58 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    color-scheme: dark;
+    --bg-app: #0B0B0C;
+    --card-surface: #17171A;
+    --card-border: #26262B;
+    --accent-yellow: #E6F852;
+    --accent-green: #1FE075;
+    --accent-pink: #FF2E74;
+    --accent-blue: #3B82F6;
+  }
+
+  body {
+    background-color: #0B0B0C;
+    color: #F4F4F5;
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden;
+  }
+
+  code, pre, .font-mono {
+    font-family: 'JetBrains Mono', monospace;
+    font-feature-settings: "tnum" 1, "zero" 1;
+  }
+}
+
+/* Custom sleek dark scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #0B0B0C;
+}
+::-webkit-scrollbar-thumb {
+  background: #27272A;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #3F3F46;
+}
+
+/* Subtle Neo-Bento glow effects */
+.glow-green {
+  box-shadow: 0 0 25px -4px rgba(31, 224, 117, 0.25);
+}
+.glow-yellow {
+  box-shadow: 0 0 25px -4px rgba(230, 248, 82, 0.25);
+}
+.glow-pink {
+  box-shadow: 0 0 25px -4px rgba(255, 46, 116, 0.25);
+}
+.glow-blue {
+  box-shadow: 0 0 25px -4px rgba(59, 130, 246, 0.25);
+}

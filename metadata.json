@@ -1,0 +1,6 @@
+{
+  "name": "DriftLab: Real-Time Statistical Distribution Shift & Data Drift Auditor",
+  "description": "Academic-grade real-time statistical distribution shift auditor for machine learning systems with Kolmogorov-Smirnov testing, Wasserstein-1 (EMD) distance, and Population Stability Index (PSI). 100% offline, zero external API keys required.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}
